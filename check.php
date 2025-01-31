@@ -100,7 +100,7 @@ $resultData = json_decode($resultGet,true);
 
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-$headers .= 'From: '.$resultData['nama'].' <yumekodeveloper@gmail.com>' . "\r\n";
+$headers .= 'From: '.$resultData['nama'].' <udinkanguncheck@gmail.com>' . "\r\n";
 
 if(mail($resultData['email'], $subjek, $pesan, $headers))
 {
